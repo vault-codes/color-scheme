@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet" />
+        <title>
+            Color scheme Generator
+        </title>
+    </head>
+    <body>
+    <div class="container">
+        <header>
+
+        </header>
+        <main>
+           <div class="main-container">
+               <div class="color-head">
+                   <input type="color" class="color-choice" id="color-choice"/>
+                  <select name="colors-mode" id="colors-mode" class="colors-mode"
+                      id="colors-mode">
+
+                      <option value="monochrome">
+                          Monochrome
+                      </option>
+                      <option value="monochrome-dark">
+                          Monochrome-dark
+                      </option>
+                      <option value="monochrome-light">
+                          Monochrome-light
+                      </option>
+                      <option value="analogic">
+                          Analogic
+                      </option>
+                      <option value="complement">
+                          Complement
+                      </option>
+                      <option value="analogic-complement">
+                          Analogic-complement
+                      </option>
+                      <option value="triad">
+                          Triad
+                      </option>
+                  </select>
+                  <button id="get-scheme-btn" class="btn">
+                      Get color scheme
+                  </button>
+               </div>
+               <div class="colors-scheme-body" id="colors-scheme-body">
+                   <div id="box1">
+
+                   </div>
+                   <div id="box2">
+
+                   </div>
+                   <div id="box3">
+
+                   </div>
+                   <div id="box4">
+
+                   </div>
+                   <div id="box5">
+
+                   </div>
+
+               </div>
+
+           </div>
+           <div class="colors-scheme-footer">
+                <p id="value-text1"></p>
+                <p id="value-text2"></p>
+                <p id="value-text3"></p>
+                <p id="value-text4"></p>
+                <p id="value-text5"></p>
+           </div>
+
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="./index.js">
+    </script>
+    </body>
+</html>
